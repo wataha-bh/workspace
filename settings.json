@@ -1,0 +1,89 @@
+{
+    "editor.lineNumbers": "relative",
+    "vim.leader": ",",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.vagrant/**": true,
+        "**/target/**": true,
+        "**/node_modules/*/**": true,
+        "**/__pycache__/**": true
+      },
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "t"],
+        "commands": ["workbench.action.terminal.toggleTerminal"]
+      },
+      {
+        "before": ["<leader>", "h"],
+        "commands": ["workbench.action.previousEditor"]
+      },
+      {
+        "before": ["<leader>", "H"],
+        "commands": ["workbench.action.focusFirstEditorGroup"]
+      },
+      {
+        "before": ["<leader>", "l"],
+        "commands": ["workbench.action.nextEditor"]
+      },
+      {
+        "before": ["<leader>", "L"],
+        "commands": ["workbench.action.focusSecondEditorGroup"]
+      },
+      {
+        "before": ["<leader>", "q"],
+        "commands": ["workbench.action.closeActiveEditor"]
+      },
+      {
+        "before": ["<leader>", "D"],
+        "commands": ["workbench.action.openDefaultKeybindingsFile"]
+      },
+      {
+        "before": ["<leader>", "E"],
+        "commands": ["workbench.view.explorer"]
+      },
+      {
+        "before": ["<leader>", "B"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+      },
+      {
+        "before": ["<leader>", "p"],
+        "commands": ["workbench.action.quickOpen"]
+      },
+      {
+        "before": ["<leader>", "P"],
+        "commands": ["workbench.action.showCommands"]
+      },
+      {
+        "before": ["<leader>", "]"],
+        "commands": ["editor.action.revealDefinition"],
+      },
+      {
+        "before": ["<leader>", "}"],
+        "commands": ["editor.action.showDefinitionPreviewHover"],
+      },
+      {
+        "before": ["<leader>", "S"],
+        "commands": ["workbench.action.gotoSymbol"],
+      },
+      {
+        "before": ["<leader>", "s"],
+        "commands": ["workbench.action.showAllSymbols"],
+      },
+      {
+        "before": ["<leader>", "c"],
+        "commands": ["editor.action.rename"],
+      },
+      {
+        "before": ["<leader>", "i"],
+        "commands": ["workbench.actions.view.problems"],
+      },
+      {
+        "before": ["<leader>", "m"],
+        "commands": ["editor.action.peekDefinition"],
+      }
+    ],
+    "window.zoomLevel": 1,
+    "vim.normalModeKeyBindings": [],
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_"
+}
